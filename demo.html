@@ -1,0 +1,667 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body{
+ 	font-family: "微软雅黑","MicrosoftYahei","宋体","Arial Narrow",sans-serif;
+}
+.tags {
+    background: none repeat scroll 0 0 #FFFFFF;
+    clear: both;
+    height: 46px;
+   	margin-bottom: 10px;
+}
+.tags div{
+	width: 132px;
+	height: 46px;
+	float: left;
+	cursor: pointer;
+	border: 1px solid #999999;
+	text-align: center;
+	line-height: 46px;
+}
+.tags .at{
+	background-color: #aaaaaa;
+}
+#wrapCon {
+    overflow: hidden;
+}
+.con {
+    border-color: #458FCE #D6DBE1 #D6DBE1;
+    border-image: none;
+    border-right: 1px solid #D6DBE1;
+    border-style: solid;
+    border-width: 2px 1px 1px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-family: Tahoma,"宋体","微软雅黑",sans-serif;
+    width: 900px;
+}
+.con .hd {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border-bottom: 1px solid #FFFFFF;
+    height: 39px;
+}
+.con .bd {
+    border-top: 1px solid #D6DBE1;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.con .bd dd {
+    float: left;
+    overflow: hidden;
+    margin: 0px;
+}
+.con .bd li {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 5px;
+    list-style: none;
+}
+.con .hd h1{
+	font-size: 16px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    width: 122px;
+    font-weight: normal;
+    margin: 0px;
+}
+</style>
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="jquery.pagecard.js"></script>
+<script type="text/javascript">
+$(function(){
+	$(".tags div").pagecard({
+		con : '.cons',
+		child : '.con'
+	});
+});
+</script>
+</head>
+<body>
+<div>
+	<div class="tags">
+		<div class="at">新闻 资讯</div>
+		<div>通信 社区</div>
+		<div>腾讯 游戏</div>
+		<div>商务 生活</div>
+		<div>手机 无线</div>
+		<div>搜索 服务</div>
+	</div>
+	<div id="wrapCon">
+		<div class="cons" style="margin-top: 0px;">
+            <div class="con">
+                	<div class="hd">
+                    	<h1>新闻<em>·</em>资讯</h1>
+                    </div>
+                    <div class="bd">
+                    	<dl>
+                        	<dt>[资讯]</dt>
+                            <dd style="width:254px;" class="line">
+                            	<ul>
+                                	<li><strong><a target="_blank" href="http://news.qq.com/">新闻</a></strong></li>
+                                    <li><a target="_blank" href="http://view.news.qq.com/">评论</a></li>
+                                    <li><a target="_blank" href="http://news.qq.com/photo.shtml">图片</a></li>
+                                    <li><a target="_blank" href="http://mil.qq.com/mil_index.htm">军事</a></li>
+                                    <li><a target="_blank" href="http://history.news.qq.com/">历史</a></li>
+                                    <li><a target="_blank" href="http://media.qq.com/">传媒</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://sports.qq.com/">体育</a></strong></li>
+                                    <li class="en"><a target="_blank" href="http://sports.qq.com/nba/">NBA</a></li>
+                                    <li><a target="_blank" href="http://sports.qq.com/isocce/index.htm">国际足球</a></li>
+                                    <li><a target="_blank" href="http://sports.qq.com/lottery/">彩票</a></li>
+                                    <li><a target="_blank" href="http://2012.qq.com/">伦敦奥运</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://v.qq.com/">视频</a></strong></li>
+                                    <li><a target="_blank" href="http://v.qq.com/movie/index.html">大片</a></li>
+                                    <li><a target="_blank" href="http://v.qq.com/variety/index.html">综艺</a></li>
+                                    <li class="en"><a target="_blank" href="http://v.qq.com/music/index.html">MV</a></li>
+                                    <li><a target="_blank" href="http://v.qq.com/tv/index.html">电视剧</a></li>
+                                    <li><a target="_blank" href="http://v.qq.com/doco/index.html">纪录片</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://ent.qq.com/">娱乐</a></strong></li>
+                                    <li><a target="_blank" href="http://yue.qq.com/">音乐</a></li>
+                                    <li><a target="_blank" href="http://ent.qq.com/movie/">电影</a></li>
+                                    <li><a target="_blank" href="http://ent.qq.com/tv/">电视</a></li>
+                                    <li><a target="_blank" href="http://ent.qq.com/star/index.shtml">明星</a></li>
+                                    <li><a target="_blank" href="http://ent.qq.com/picture.shtml">视觉</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://lady.qq.com/">女性</a></strong></li>
+                                    <li><a target="_blank" href="http://luxury.qq.com/">时尚</a></li>
+                                    <li><a target="_blank" href="http://lady.qq.com/style/dress.shtml">服饰</a></li>
+                                    <li><a target="_blank" href="http://lady.qq.com/beauty/beauty.shtml">美容</a></li>
+                                    <li><a target="_blank" href="http://lady.qq.com/emo/emotio.shtml">情感</a></li>
+                                    <li><a target="_blank" href="http://lady.qq.com/nvphoto/photo.shtml">美图</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://comic.qq.com/">动漫</a></strong></li>
+                                    <li><a target="_blank" href="http://comic.qq.com/pic/">萌图</a></li>
+                                    <li><a target="_blank" href="http://ac.qq.com/">漫画</a></li>
+                                    <li><a target="_blank" href="http://comic.qq.com/doodle/">涂鸦</a></li>
+                                    <li><a target="_blank" href="http://comic.qq.com/newanime/">新番</a></li>
+                                    <li><a target="_blank" href="http://comic.qq.com/2012dhdd/">新动画</a></li>
+                                </ul>    
+								<ul>
+                                	<li><strong><a target="_blank" href="http://astro.lady.qq.com/">星座</a></strong></li>
+                                    <li><a target="_blank" href="http://astro.lady.qq.com/06newver/horoscope.shtml ">运势</a></li>
+                                    <li><a target="_blank" href="http://astro.lady.qq.com/augury/augu_test.shtml">测试</a></li>
+                                    <li><a target="_blank" href="http://astro.lady.qq.com/omens/omen.shtml">生肖</a></li>
+                                    <li><a target="_blank" href="http://blog.qq.com/astro/index.htm">星座大师</a></li>
+                                    
+                                </ul> 
+                            </dd>
+                            <dd style="width:254px;padding-left:6px;" class="line">
+                            	<ul>
+                                	<li><strong><a target="_blank" href="http://finance.qq.com/">财经</a></strong></li>
+                                    <li><a target="_blank" href="http://finance.qq.com/stock/">股票</a></li>
+                                    <li><a target="_blank" href="http://finance.qq.com/fund/">基金</a></li>
+                                    <li><a target="_blank" href="http://finance.qq.com/money/">理财</a></li>
+                                    <li><a target="_blank" href="http://finance.qq.com/hk/">港股</a></li>
+                                    <li><a target="_blank" href="http://stockapp.finance.qq.com/pstock/">自选股</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://auto.qq.com/">汽车</a></strong></li>
+                                    <li><a target="_blank" href="http://auto.qq.com/buycar/">购车</a></li>
+                                    <li><a target="_blank" href="http://data.auto.qq.com/car_brand/index.shtml">车型</a></li>
+                                    <li><a target="_blank" href="http://auto.qq.com/club/">车友</a></li>
+                                    <li><a target="_blank" href="http://auto.qq.com/service/">用车</a></li>
+                                    <li><a target="_blank" href="http://data.auto.qq.com/piclib/index.shtml">图库</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://house.qq.com/">房产</a></strong></li>
+                                    <li><a target="_blank" href="http://house.qq.com/newhouse/">置业</a></li>
+                                    <li><a target="_blank" href="http://house.qq.com/zhuanti/lpdglist.htm">导购</a></li>
+                                    <li><a target="_blank" href="http://house.qq.com/kanfangtuan/index_all.htm">看房</a></li>
+                                    <li><a target="_blank" href="http://house.qq.com/bbs/">业主</a></li>
+                                    <li><a target="_blank" href="http://db.house.qq.com/">楼盘库</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://tech.qq.com/">科技</a></strong></li>
+                                    <li><a target="_blank" href="http://tech.qq.com/hlwxw.htm">互联网</a></li>
+                                    <li class="en"><a target="_blank" href="http://tech.qq.com/it.htm">IT</a></li>
+                                    <li><a target="_blank" href="http://tech.qq.com/tele.htm">通信</a></li>
+                                    <li><a target="_blank" href="http://tech.qq.com/science.htm">科学</a></li>
+                                    <li><a target="_blank" href="http://hea.qq.com/househindex.htm">家电</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://digi.tech.qq.com/">数码</a></strong></li>
+                                    <li><a target="_blank" href="http://digi.tech.qq.com/notebook/">笔记本</a></li>
+                                    <li><a target="_blank" href="http://digi.tech.qq.com/mobile/">手机</a></li>
+                                    <li><a target="_blank" href="http://digi.tech.qq.com/shoot/shoot.shtml">相机</a></li>
+                                    <li><a target="_blank" href="http://digi.tech.qq.com/zt2011/geekzone/index.htm">极客</a></li>
+                                    <li><a target="_blank" href="http://download.digi.tech.qq.com/index.shtml">下载</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://games.qq.com/">游戏</a></strong></li>
+                                    <li><a target="_blank" href="http://games.qq.com/datalib/index.html">找游戏</a></li>
+                                    <li><a target="_blank" href="http://games.qq.com/newgames/">新游</a></li>
+                                    <li><a target="_blank" href="http://card.games.qq.com/">特权码</a></li>
+                                    <li><a target="_blank" href="http://games.qq.com/web/index.htm">网页游戏</a></li>
+                                </ul>    
+                            </dd>
+                            <dd style="width:254px;padding-left:6px;">
+                            	<ul>
+                                	<li><strong><a target="_blank" href="http://edu.qq.com/">教育</a></strong></li>
+                                    <li><a target="_blank" href="http://edu.qq.com/gaokao/">高考</a></li>
+                                    <li><a target="_blank" href="http://edu.qq.com/abroad/">出国</a></li>
+                                    <li><a target="_blank" href="http://edu.qq.com/jjxy/xy.shtml">校园</a></li>
+                                    <li><a target="_blank" href="http://edu.qq.com/en/">外语</a></li>
+                                    <li><a target="_blank" href="http://edu.qq.com/bschool/">商学院</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://book.qq.com/">读书</a></strong></li>
+                                    <li><a target="_blank" href="http://book.qq.com/lianzaiindex/all/index_1.htm">连载</a></li>
+                                    <li><a target="_blank" href="http://book.qq.com/yc/index.htm">原创</a></li>
+                                    <li><a target="_blank" href="http://mag.book.qq.com/">杂志</a></li>
+                                    <li><a target="_blank" href="http://cul.qq.com/">文化</a></li>
+                                    <li class="en"><a target="_blank" href="http://book.qq.com/lianzaiindex/all/vip1_index_1.htm">VIP</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://kid.qq.com/">儿童</a></strong></li>
+                                    <li><a target="_blank" href="http://kid.qq.com/gushiba/index.htm">故事</a></li>
+                                    <li><a target="_blank" href="http://kid.qq.com/zt/2007/kidsg/">诗词</a></li>
+                                    <li><a target="_blank" href="http://kid.qq.com/zuowen/index.htm">作文</a></li>
+                                    <li><a target="_blank" href="http://kid.qq.com/dongman/tonghua/tale.htm">童话</a></li>
+                                    <li><a target="_blank" href="http://kid.qq.com/yinyue/musicindex.htm">儿歌</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://baby.qq.com/">育儿</a></strong></li>
+                                    <li><a target="_blank" href="http://baby.qq.com/pregnancy/index.htm">孕产</a></li>
+                                    <li><a target="_blank" href="http://baby.qq.com/yingyangxx/yysg.htm">营养</a></li>
+                                    <li><a target="_blank" href="http://baby.qq.com/jiankang/index.htm">护理</a></li>
+                                    <li><a target="_blank" href="http://baby.qq.com/xuexiao/index.htm">成长</a></li>
+                                    <li><a target="_blank" href="http://blog.qq.com/baby/">亲子</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://t.qq.com/">微博</a></strong></li>
+                                    <li><a target="_blank" href="http://c.t.qq.com/k/default?pref=web.wide.page.nav.text">微频道</a></li>
+                                    <li><a target="_blank" href="http://blog.qq.com/">博客</a></li>
+                                    <li><a target="_blank" href="http://bbs.qq.com/">论坛</a></li>
+                                    <li><a target="_blank" href="http://v.qq.com/boke/">播客</a></li>
+                                    <li><a target="_blank" href="http://v.qq.com/program/index.htm">出品</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://gongyi.qq.com/">公益</a></strong></li>
+                                    <li><a target="_blank" href="http://green.news.qq.com/">绿色</a></li>
+                                    <li><a target="_blank" href="http://weather.news.qq.com/">天气</a></li>
+                                    <li><a target="_blank" href="http://gongyi.qq.com/tccf/">基金会</a></li>
+                                </ul>    
+                            </dd>
+                            
+                        </dl>
+                        <dl>
+                       	  <dt>[地方站]</dt>
+                            <dd>
+                            	<ul>
+                                	 <li><a target="_blank" href="http://sh.qq.com/">上海</a></li>
+                                    <li><a target="_blank" href="http://gd.qq.com/">广东</a></li>
+                                    <li><a target="_blank" href="http://cd.qq.com/">四川</a></li>
+                                    <li><a target="_blank" href="http://cq.qq.com/">重庆</a></li>
+                                    <li><a target="_blank" href="http://xian.qq.com/">陕西</a></li>
+                                    <li><a target="_blank" href="http://hn.qq.com/">湖南</a></li>
+                                    <li><a target="_blank" href="http://hb.qq.com/">湖北</a></li>
+                                    <li><a target="_blank" href="http://fj.qq.com/">福建</a></li>
+                                    <li><a target="_blank" href="http://henan.qq.com/">河南</a></li>
+                                    <li><a target="_blank" href="http://zj.qq.com/">浙江</a></li>
+                                </ul>
+                            </dd>
+                      </dl>
+                    </div>
+                </div>
+                <div class="con">
+                	<div class="hd">
+                    	<h1>通信<em>·</em>社区</h1>
+                    </div>
+                    <div class="bd">
+                    	<dl>
+                        	<dt>[通信]</dt>
+                            <dd style="width:390px;">
+                            	<ul class="line">
+                                	<li><strong><a target="_blank" href="http://im.qq.com/"><span class="en">QQ</span></a></strong></li>
+                                    <li><a target="_blank" href="http://vip.qq.com/"><span class="en">QQ</span>会员</a></li>
+                                    <li><a target="_blank" href="http://show.qq.com/"><span class="en">QQ</span>秀</a></li>
+                                    <li><a target="_blank" href="http://zc.qq.com/chs/index.html">帐号申请</a></li>
+                                    <li><a target="_blank" href="http://aq.qq.com/cn2/manage/my_mb/">密码保护</a></li>
+                                    <li><a target="_blank" href="https://aq.qq.com/cn2/findpsw/pc/pc_find_pwd_input_account/">找回号码</a></li>
+                                    <li><a target="_blank" href="http://im.qq.com/qq/all.shtml">下载</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://weixin.qq.com/">微信</a></strong></li>
+                                    <li><a target="_blank" href="http://im.qq.com/tm/"><span class="en">TM</span></a></li>
+                                    <li><a target="_blank" href="http://rtx.tencent.com/rtx/index.shtml"><span class="en">RTX</span></a></li>
+                                    <li><a target="_blank" href="http://b.qq.com/">企业<span class="en">QQ</span></a></li>
+                                    <li><a target="_blank" href="http://web2.qq.com/"><span class="en">WebQQ</span></a></li>
+                                    <li><a target="_blank" href="http://www.qplus.com/"><span class="en">Q+</span></a></li>
+                                     <li><a target="_blank" href="http://www.imqq.com">国际版<span class="en">QQ</span></a></li>        
+                                </ul>     
+                            </dd>
+                            <dd>
+                            	<ul style="padding-left:6px;">
+                                	<li><strong><a target="_blank" href="https://mail.qq.com/">邮箱</a></strong></li>
+                                    <li><a target="_blank" href="http://exmail.qq.com/">企业邮箱</a></li>
+                                    <li><a target="_blank" href="http://mail.qq.com/cgi-bin/login?vt=passport&amp;from=webmap&amp;delegate_url=%2Fcgi-bin%2Fframe_html%3Furl%3D%25252Fcgi-bin%25252Fsetting10%25253Faction%25253Dlist%252526t%25253Dsetting10%252526ss%25253Dindex%252526Mtype%25253D1%252526clickpos%25253D20%252526loc%25253Ddelegate%25252Cwebmap%25252C%25252C1">订阅</a></li>
+                                    <li><a target="_blank" href="http://mail.qq.com/cgi-bin/login?vt=passport&amp;from=webmap&amp;delegate_url=%2Fcgi-bin%2Fframe_html%3Furl%3D%25252Fcgi-bin%25252Fcardlist%25253Ftoday_tips%25253D200%252526ListType%25253DCards%252526t%25253Dcard%252526Cate1Idx%25253Dlistall%252526loc%25253Ddelegate%25252Cwebmap%25252C%25252C4">贺卡</a></li>
+                                    <li><a target="_blank" href="http://mail.qq.com/cgi-bin/login?vt=passport&amp;from=webmap&amp;delegate_url=%2Fcgi-bin%2Fframe_html%3Furl%3D%25252Fcgi-bin%25252Freadtemplate%25253Ft%25253Dcompose_postcard%252526photogroupid%25253Dmh%252526photoid%25253D0%252526loc%25253Ddelegate%25252Cwebmap%25252C%25252C3">明信片</a></li>
+                                    <li><a target="_blank" href="http://mail.qq.com/cgi-bin/login?vt=passport&amp;from=webmap&amp;delegate_url=%2Fcgi-bin%2Fframe_html%3Furl%3D%25252Fcgi-bin%25252FftnExs_files%25253Ft%25253Dexs_ftn_files%252526filetype%25253D0%252526listtype%25253Dself%252526page%25253D0%252526pagesize%25253D20%252526loc%25253Ddelegate%25252Cwebmap%25252C%25252C2">文件中转站</a></li>
+                                    <li><a target="_blank" href="http://www.foxmail.com.cn/"><span class="en">Foxmail</span></a></li>
+                                </ul>    
+                            </dd> 
+                        </dl>
+                        <dl>
+                        	<dt>[社区]</dt>
+                            <dd style="width:390px;">
+                            	<ul class="line">
+                                	<li><strong><a target="_blank" href="http://qzone.qq.com/"><span class="en">Qzone</span></a></strong></li>
+                                    <li><a target="_blank" href="http://vip.qzone.com/">黄钻</a></li>
+                                    <li><a target="_blank" href="http://home.photo.qq.com/">相册</a></li>
+                                    <li><a target="_blank" href="http://qqapp.qq.com/">应用中心</a></li>
+                                    <li><a target="_blank" href="http://page.opensns.qq.com/apply.html">认证空间</a></li>
+                                    <li><strong><a target="_blank" href="http://www.pengyou.com/">朋友网</a></strong></li>
+                                    <li><a target="_blank" href="http://www.pengyou.com/index.php?mod=appmanager&amp;type=qzone&amp;adtag=top_app">应用</a></li>
+                                </ul>
+                            </dd>
+                            <dd>
+                                <ul style="padding-left:6px;">
+                                	<li><strong><a target="_blank" href="http://t.qq.com/">微博</a></strong></li>
+                                    <li><a target="_blank" href="http://c.t.qq.com/k/default?pref=web.wide.page.nav.text">微频道</a></li>
+                                    <li><a target="_blank" href="http://app.t.qq.com/?via=WB.TQQ.TOP.ENTERAPP">应用</a></li>
+                                    <li><a target="_blank" href="http://t.qq.com/n/lab.php">实验室</a></li>
+                                </ul>
+                            </dd>
+                      </dl>
+                         <dl>
+                        	<dt>[软件]</dt>
+                            <dd>
+                            	<ul class="line" style="float:left;width:390px;">
+                                	<li><strong><a target="_blank" href="http://guanjia.qq.com/">电脑管家</a></strong></li>
+                                    <li><a target="_blank" href="http://guanjia.qq.com/help/mmcs.html">云查杀木马</a></li>
+                                    <li><a target="_blank" href="http://guanjia.qq.com/security/safe.html">安全中心</a></li>
+                                    <li><a target="_blank" href="http://pc.qq.com/"><span class="en">QQ</span>软件管理</a></li>
+                                    <li><a target="_blank" href="http://qdesk.qq.com/">小<span class="en">Q</span>书桌</a></li>
+                                </ul>
+                                <ul style="float:left;width:350px;padding-left:6px;">
+                                	<li><a target="_blank" href="http://im.qq.com/macqq/index.shtml"><span class="en">QQ for Mac</span> </a></li>
+                                    <li><a target="_blank" href="http://shurufa.qq.com/mac/"><span class="en">QQ</span>输入法 <span class="en">for Mac</span></a></li>
+                                    <li><a target="_blank" href="http://browser.qq.com/mac/index.html"><span class="en">QQ</span>浏览器 <span class="en">for Mac</span></a></li>
+                                    <li><a target="_blank" href="http://snip.qq.com/"><span class="en">Snip</span></a></li>
+                                </ul>
+                                <ul style="float:left;width:700px;">
+                                	<li><a target="_blank" href="http://browser.qq.com/"><span class="en">QQ</span>浏览器</a></li>
+                                    <li><a target="_blank" href="http://toolbar.soso.com/T4/index2.html"><span class="en">QQ</span>工具栏</a></li>
+                                    <li><a target="_blank" href="http://xf.qq.com/"><span class="en">QQ</span>旋风</a></li>
+                                    <li><a target="_blank" href="http://www.weiyun.com/">微云</a></li>
+                                    <li><a target="_blank" href="http://py.qq.com/"><span class="en">QQ</span>拼音</a></li>
+                                    <li><a target="_blank" href="http://cidian.qq.com/"><span class="en">QQ</span>词典</a></li>
+                                    <li><a target="_blank" href="http://y.qq.com/#type=index"><span class="en">QQ</span>音乐</a></li>
+                                    <li><a target="_blank" href="http://player.qq.com/"><span class="en">QQ</span>影音</a></li>
+                                    <li><a target="_blank" href="http://image.qq.com/"><span class="en">QQ</span>影像</a></li>
+                                    <li><a target="_blank" href="http://v.qq.com/index.html">腾讯视频播放器</a></li>
+                                </ul>
+                            </dd>
+                         </dl>
+                    </div>
+                </div>
+                <div class="con">
+                	<div class="hd">
+                    	<h1>腾讯<em>·</em>游戏</h1>
+                    </div>
+                    <div class="bd">
+                    	<dl>
+                        	<dt>[角色扮演]</dt>
+                            <dd>
+                            	<ul>
+                                	<li><a target="_blank" href="http://dnf.qq.com/ADTAG=media.innerenter.gamecom.navigation">地下城与勇士</a></li>
+                                    <li><a target="_blank" href="http://yl.qq.com/?ADTAG=media.innerenter.gamecom.navigation">御龙在天</a></li>
+                                    <li><a target="_blank" href="http://xy.qq.com/?ADTAG=media.innerenter.gamecom.navigation">轩辕传奇</a></li>
+                                    <li><a target="_blank" href="http://xx.qq.com/index.shtml">寻仙</a></li>
+                                    <li><a target="_blank" href="http://qqxy.qq.com/main.shtml"><span class="en">QQ</span>西游</a></li>
+                                    <li><a target="_blank" href="http://dm.qq.com/main.shtml">大明龙权</a></li>
+                                    <li><a target="_blank" href="http://xj.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>仙境</a></li>
+                                    <li><a target="_blank" href="http://3.qq.com/">万王之王3</a></li>
+                                    <li><a target="_blank" href="http://qqzt.qq.com/index.shtml">绿色征途</a></li>
+                                    <li><a target="_blank" href="http://9j.qq.com/">九界</a></li>
+                                    <li><a target="_blank" href="http://dzs.qq.com/">斗战神</a></li>
+                                    <li><a target="_blank" href="http://xxz.qq.com/"><span class="en">QQ</span>仙侠传</a></li>
+                                    <li><a target="_blank" href="http://hs.qq.com/?ADTAG=media.innerenter.gamecom.navigation">幻想世界</a></li>
+                                    <li><a target="_blank" href="http://ffo.qq.com/?ADTAG=media.innerenter.gamecom.navigation">自由幻想</a></li>
+                                    <li><a target="_blank" href="http://ffo.qq.com/"><span class="en">QQ</span>幻想</a></li>
+                                    <li><a target="_blank" href="http://sg.qq.com/index.shtml"><span class="en">QQ</span>三国</a></li>
+                                    <li><a target="_blank" href="http://fs.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>封神记</a></li>
+                                    <li><a target="_blank" href="http://qqhx.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>华夏</a></li>
+                                    <li><a target="_blank" href="http://tiantang.qq.com/?ADTAG=media.innerenter.gamecom.navigation">天堂</a></li>
+                                    <li><a target="_blank" href="http://tiantang2.qq.com/?ADTAG=media.innerenter.gamecom.navigation">天堂Ⅱ</a></li>
+                                    <li><a target="_blank" href="http://age.qq.com/?ADTAG=media.innerenter.gamecom.navigation">上古世纪</a></li>
+                                    <li><a target="_blank" href="http://bns.qq.com/?ADTAG=media.innerenter.gamecom.navigation">剑灵</a></li>
+                                    <li><a target="_blank" href="http://c9.qq.com/?ADTAG=media.innerenter.gamecom.navigation">第九大陆</a></li>
+                                    <li><a target="_blank" href="http://d2.qq.com/?ADTAG=media.innerenter.gamecom.navigation">刀剑2</a></li>
+                                    <li><a target="_blank" href="http://h2.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>仙灵</a></li>
+                                    <li><a target="_blank" href="http://jf.qq.com/?ADTAG=media.innerenter.gamecom.navigation">疾风之刃</a></li>
+                                    <li><a target="_blank" href="http://tian.qq.com/?ADTAG=media.innerenter.gamecom.navigation">天刹</a></li>
+                                </ul>    
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>[竞技游戏]</dt>
+                            <dd>
+                            	<ul>
+                                	<li><a target="_blank" href="http://cf.qq.com/?ADTAG=media.innerenter.gamecom.navigation">穿越火线</a></li>
+                                    <li><a target="_blank" href="http://ava.qq.com/?ADTAG=media.innerenter.gamecom.navigation">战地之王</a></li>
+                                    <li><a target="_blank" href="http://woz.qq.com/?ADTAG=media.innerenter.gamecom.navigation">生化战场</a></li>
+                                    <li><a target="_blank" href="http://nz.qq.com/index.shtml">逆战</a></li>
+                                    <li><a target="_blank" href="http://btr.qq.com/?ADTAG=media.innerenter.gamecom.navigation">烈焰行动</a></li>
+                                    <li><a target="_blank" href="http://wf.qq.com/?ADTAG=media.innerenter.gamecom.navigation">战争前线</a></li>
+                                    <li><a target="_blank" href="http://lol.qq.com/?ADTAG=media.innerenter.gamecom.navigation">英雄联盟</a></li>
+                                    <li><a target="_blank" href="http://yxd.qq.com/?ADTAG=media.innerenter.gamecom.navigation">英雄岛</a></li>
+                                    <li><a target="_blank" href="http://x5.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>炫舞</a></li>
+                                    <li><a target="_blank" href="http://speed.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>飞车</a></li>
+                                    <li><a target="_blank" href="http://r2.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>音速</a></li>
+                                    <li><a target="_blank" href="http://xd.qq.com/?ADTAG=media.innerenter.gamecom.navigation">炫斗之王</a></li>
+                                    <li><a target="_blank" href="http://qqtang.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>堂</a></li>
+                                    <li><a target="_blank" href="http://nba2k.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">NBA2K OL</span></a></li>  
+                                </ul>
+                            </dd>
+                      </dl>
+                         <dl>
+                        	<dt>[网页游戏]</dt>
+                            <dd>
+                            	<ul>
+                                	<li><a target="_blank" href="http://7.qq.com/?ADTAG=media.innerenter.gamecom.navigation">七雄争霸</a></li>
+                                    <li><a target="_blank" href="http://fight.qq.com/?ADTAG=media.innerenter.gamecom.navigation">Q宠大乐斗</a></li>
+                                    <li><a target="_blank" href="http://ye.qq.com/?ADTAG=media.innerenter.gamecom.navigation">夜店之王</a></li>
+                                    <li><a target="_blank" href="http://108.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>水浒</a></li>
+                                    <li><a target="_blank" href="http://baoshi.qq.com/?ADTAG=media.innerenter.gamecom.navigation">宝石总动员</a></li>
+                                    <li><a target="_blank" href="http://s3.qq.com/?ADTAG=media.innerenter.gamecom.navigation">蜀山传奇</a></li>
+                                    <li><a target="_blank" href="http://cheng.qq.com/?ADTAG=media.innerenter.gamecom.navigation">摩登城市</a></li>
+                                    <li><a target="_blank" href="http://ttd.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>天堂岛</a></li>
+                                    <li><a target="_blank" href="http://xia.qq.com/?ADTAG=media.innerenter.gamecom.navigation">寻侠</a></li>
+                                    <li><a target="_blank" href="http://igame.qq.com/mini_game/?ADTAG=media.innerenter.gamecom.navigation">更多</a></li>   
+                                </ul>
+                            </dd>
+                         </dl>
+                          <dl>
+                        	<dt>[平台游戏]</dt>
+                            <dd>
+                            	<ul>
+                                	<li><a target="_blank" href="http://game.qq.com/?ADTAG=media.innerenter.qqcom.index_navigation"><span class="en">QQ</span>游戏</a></li>
+                                    <li><a target="_blank" href="http://www.3366.com/?ADTAG=media.innerenter.gamecom.navigation">3366小游戏</a></li>
+                                    <li><a target="_blank" href="http://bear.qq.com/?ADTAG=media.innerenter.gamecom.navigation">小熊梦工厂</a></li>
+                                    <li><a target="_blank" href="http://pet.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>企鹅</a></li>   
+                                </ul>
+                            </dd>
+                         </dl>
+                    </div>
+                </div>
+                <div class="con">
+                	<div class="hd">
+                    	<h1>商务<em>·</em>生活</h1>
+                    </div>
+                    <div class="bd">
+                    	<dl>
+                        	<dt>[网购]</dt>
+                            <dd>
+                            	<ul>
+                                	<li><a target="_blank" href="http://www.paipai.com/">拍拍</a></li>
+                                    <li><a target="_blank" href="http://buy.qq.com/"><span class="en">QQ</span>网购</a></li>
+                                    <li><a target="_blank" href="http://tuan.qq.com/"><span class="en">QQ</span>团购</a></li>
+                                    <li><a target="_blank" href="http://piao.qq.com/"><span class="en">QQ</span>电影票</a></li>
+                                    <li><a target="_blank" href="http://meishi.qq.com/beijing"><span class="en">QQ</span>美食</a></li>
+                                    <li><a target="_blank" href="http://go.qq.com/?attach=qqlvyou_28_13_1"><span class="en">QQ</span>旅游</a></li>
+                                    <li><a target="_blank" href="http://cb.qq.com/shop/index.html"><span class="en">QQ</span>返利</a></li>
+                                    <li><a target="_blank" href="http://sudi.qq.com/"><span class="en">QQ</span>速递</a></li>
+                                    <li><a target="_blank" href="http://life.tenpay.com/v2/app/detail.shtml?appId=0000000708">彩票</a></li>
+                                    <li><a target="_blank" href="http://juhui.tenpay.com/">聚惠</a></li>
+                                    <li><a target="_blank" href="http://www.gaopeng.com/">高朋网</a></li>
+                                    <li><a target="_blank" href="http://cb.qq.com/?attach=200_1000_10090&amp;QQ_from=200_1000_10090"><span class="en">QQ</span>彩贝</a></li>
+                                </ul>                                  
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>[支付]</dt>
+                            <dd>
+                            	<ul>
+                                	<li><strong><a target="_blank" href="https://www.tenpay.com/v2/">财付通</a></strong></li>
+                                    <li><a target="_blank" href="https://www.tenpay.com/v2/account/charge/index.shtml?jump=0">充值</a></li>
+                                    <li><a target="_blank" href="https://www.tenpay.com/app/v1.0/show_drawing.cgi?RAW">提现</a></li>
+                                    <li><a target="_blank" href="https://www.tenpay.com/v2/account/pay/">付款</a></li>
+                                    <li><a target="_blank" href="https://www.tenpay.com/v2/account/pay/paycard.shtml">付款到银行卡</a></li>
+                                    <li><a target="_blank" href="https://life.tenpay.com/v2/app/detail.shtml?appId=0000000845&amp;ADTAG=CREDIT.QQCOM.LIFE.CREDIT">还款</a></li>
+                                    <li><a target="_blank" href="https://www.tenpay.com/v2/account/ydt/intro.shtml">快捷支付</a></li>
+                                    <li><a target="_blank" href="https://www.tenpay.com/v2/mapp/index.shtml?ADTAG=TENPAY.MOBILE.QQ.BUSINESS">手机支付</a></li>
+                                    <li><a target="_blank" href="https://www.tenpay.com/v2/account/purse/index.shtml">微支付</a></li>
+                                    <li><a target="_blank" href="https://www.tenpay.com/v2/mapp/index.shtml?ADTAG=TENPAY.MOBILE.QQ.BUSINESS">手机财付通</a></li>
+                                    <li><a target="_blank" href="http://vip.tenpay.com/?&amp;ADTAG=CFT.VIP.QQCOM.MAP">财付通会员</a></li>
+                                    <li><a target="_blank" href="https://pay.tenpay.com/">收付易</a></li>
+                                    <li><a target="_blank" href="https://www.tenpay.com/v2/account/charge/mobile.shtml">手机充值卡充值</a></li>
+                              </ul>
+                                 <ul>                                   
+                                    <li><strong><a target="_blank" href="http://my.pay.qq.com/account/index.shtml">Q点Q币</a></strong></li>
+                                    <li><a target="_blank" href="http://life.tenpay.com/v2/app/detail.shtml?appId=0000000911">充Q点Q币</a></li>
+                                    <li><a target="_blank" href="http://life.tenpay.com/v2/app/detail.shtml?appId=0000000904">购买<span class="en">QQ</span>服务</a></li>
+                                    <li><a target="_blank" href="https://www.tenpay.com/v2/account/purse/mypurse.shtml">游戏充值</a></li> 
+                                </ul>
+                            </dd>
+                      </dl>
+                         <dl>
+                        	<dt>[便民]</dt>
+                            <dd>
+                            	<ul>
+                                	<li><a target="_blank" href="http://life.tenpay.com/v2/app/detail.shtml?appId=0000000844">手机话费</a></li>
+                                    <li><a target="_blank" href="https://life.tenpay.com/v2/app/detail.shtml?appId=0000000845&amp;ADTAG=CREDIT.QQCOM.LIFE.CREDIT">信用卡还款</a></li>
+                                    <li><a target="_blank" href="http://life.tenpay.com/v2/app/detail.shtml?appId=0000000708">财付通彩票</a></li>
+                                    <li><a target="_blank" href="http://life.tenpay.com/v2/app/detail.shtml?appId=0000000847&amp;ADTAG=SDM.QQCOM.LIFE.SDM">水电煤缴费</a></li>
+                                    <li><a target="_blank" href="http://life.tenpay.com/v2/app/detail.shtml?appId=0000001264&amp;ADTAG=HUAFEI.QQCOM.LIFE.HUAFEI">话费宽带</a></li>
+                                    <li><a target="_blank" href="https://www.tenpay.com/v2/account/purse/mypurse.shtml">游戏充值</a></li>
+                                    <li><a target="_blank" href="http://life.tenpay.com/v2/app/detail.shtml?appId=0000000846">机票订购</a></li>
+                                    <li><a target="_blank" href="https://life.tenpay.com/v2/app/detail.shtml?appId=0000001256&amp;ADTAG=MORT.QQCOM.LIFE.MORT">还房贷</a></li>
+                                    <li><a target="_blank" href="http://life.tenpay.com/v2/app/93/0000000593.shtml">违章速办</a></li>
+                                    <li><a target="_blank" href="http://life.tenpay.com/v2/app/detail.shtml?appId=0000000916">邮政汇款</a></li>
+                                    <li><a target="_blank" href="http://life.tenpay.com/v2/applist/p19/0/0/0/683136_1.shtml">更多应用</a></li>
+                                </ul>
+                            </dd>
+                         </dl>
+                    </div>
+                </div>
+                <div class="con">
+                	<div class="hd">
+                    	<h1>手机<em>·</em>无线</h1>
+                    </div>
+                    <div class="bd">
+                    	<dl>
+                        	<dt>[手机]</dt>
+                            <dd>
+                            	<ul>
+                                	<li><a target="_blank" href="http://mq.qq.com/?from=qq">超级<span class="en">QQ</span></a></li>
+                                    <li><a target="_blank" href="http://mobile.qq.com/">手机<span class="en">QQ</span></a></li>
+                                    <li><a target="_blank" href="http://3gqq.qq.com/">手机腾讯网</a></li>
+                                    <li><a target="_blank" href="http://news.qq.com/mobile/">腾讯新闻客户端</a></li>
+
+                                    <li><a target="_blank" href="http://mobile.qq.com/qzone/">手机<span class="en">QQ</span>空间</a></li>
+                                    <li><a target="_blank" href="http://map.soso.com/mobile/">手机<span class="en">QQ</span>地图</a></li>
+                                    <li><a target="_blank" href="http://m.qq.com/?from=qq"><span class="en">QQ</span>无线</a></li>
+                                    <li><a target="_blank" href="http://bd.qq.com/?from=qq">绑定</a></li>
+                                </ul>                                  
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>[应用]</dt>
+                            <dd>
+                            	<ul>
+                                	<li><a target="_blank" href="http://msm.qq.com/?g_f=6660">腾讯手机管家</a></li>
+                                    <li><a target="_blank" href="http://txl.qq.com/?g_f=7316"><span class="en">QQ</span>通讯录</a></li>
+                                    <li><a target="_blank" href="http://aq.qq.com/cn2/manage/mbtoken/app_index/"><span class="en">QQ</span>安全中心</a></li>
+                                    <li><a target="_blank" href="http://pim.qq.com/?g_f=6661"><span class="en">QQ</span>同步助手</a></li>
+                                    <li><a target="_blank" href="http://mb.qq.com/">手机<span class="en">QQ</span>浏览器</a></li>
+                                    <li><a target="_blank" href="http://qmusic.qq.com/">手机<span class="en">QQ</span>音乐</a></li>
+                                    <li><a target="_blank" href="http://3gqq.qq.com/book.jsp">手机<span class="en">QQ</span>书城</a></li>
+                                    <li><a target="_blank" href="http://ebook.qq.com/">手机<span class="en">QQ</span>读书</a></li>
+                                    <li><a target="_blank" href="http://qqreader.qq.com/">手机<span class="en">QQ</span>阅读器</a></li>
+                              </ul>
+                                 <ul>
+                                	<li><a target="_blank" href="http://p.t.qq.com/client.php?t=mobile">手机微博</a></li>
+                                    <li><a target="_blank" href="http://v.qq.com/download.html">腾讯视频</a></li>
+                                    <li><a target="_blank" href="http://android.myapp.com/android/appdetail.jsp?appid=42414&amp;actiondetail=0&amp;pageNo=1&amp;clickpos=1&amp;softname=%E8%85%BE%E8%AE%AF%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8&amp;enginekeywd=%E8%85%BE%E8%AE%AF%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8&amp;lmid=1022">腾讯文件管理器</a></li>
+                                    <li><a target="_blank" href="http://pai.qq.com/">Q拍</a></li>
+                                    <li><a target="_blank" href="http://tx.myapp.com/p/mg/">应用中心</a></li>
+                                 </ul>
+                            </dd>
+                      </dl>
+                         <dl>
+                        	<dt>[手机游戏]</dt>
+                            <dd>
+                            	<ul>
+                                	<li><strong><a target="_blank" href="http://mgame.qq.com/">游戏大厅</a></strong></li>
+                                    <li><a target="_blank" href="http://webwap.qq.com/">玩酷乐园</a></li>
+                                    <li><a target="_blank" href="http://mz.qq.com/">魔钻</a></li>
+                                    <li><a target="_blank" href="http://bl.qq.com/">部落守卫城</a></li>
+                                    <li><a target="_blank" href="http://qqtown.qq.com/"><span class="en">QQ</span>梦想城</a></li>
+                                    <li><a target="_blank" href="http://mgame.qq.com/game_detail_android.web?resId=MA2010111000237"><span class="en">QQ</span>斗地主</a></li>
+                                    <li><a target="_blank" href="http://game.qq.com/qqcook/download.shtml"><span class="en">QQ</span>餐厅</a></li>
+                                    <li><a target="_blank" href="http://mgame.qq.com/game_detail_android.web?resId=MA2011042900089"><span class="en">QQ</span>连连看</a></li>
+                                    <li><a target="_blank" href="http://android.myapp.com/android/appdetail.jsp?appid=128682&amp;actiondetail=0&amp;pageNo=2&amp;clickpos=9&amp;softname=QQ&amp;enginekeywd=QQ&amp;lmid=1022&amp;g_f=970028"><span class="en">QQ</span>农场</a></li>
+                                    <li><a target="_blank" href="http://xlong.qq.com"><span class="en">QQ</span>降龙</a></li>
+                                    <li><a target="_blank" href="http://android.myapp.com/android/appdetail.jsp?appid=17564&amp;actiondetail=0&amp;pageNo=1&amp;clickpos=1&amp;softname=QQ%E4%BA%94%E5%AD%90%E6%A3%8B&amp;enginekeywd=QQ%E4%BA%94%E5%AD%90%E6%A3%8B&amp;lmid=1022&amp;g_f=970028"><span class="en">QQ</span>五子棋</a></li>
+                                    <li><a target="_blank" href="http://android.myapp.com/android/appdetail.jsp?appid=87399&amp;actiondetail=0&amp;pageNo=1&amp;clickpos=1&amp;softname=QQ王国&amp;enginekeywd=QQ王国&amp;lmid=1022&amp;g_f=970028"><span class="en">QQ</span>王国</a></li> 
+                                </ul>
+                                    <ul>
+                                	<li><a target="_blank" href="http://game.qq.com/qqcook/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>餐厅</a></li>
+                                    <li><a target="_blank" href="http://sy.qq.com/weizhuan/?ADTAG=media.innerenter.gamecom.navigation">三国塔防魏传</a></li>
+                                    <li><a target="_blank" href="http://sy.qq.com/hlwg/?ADTAG=media.innerenter.gamecom.navigation">欢乐王国</a></li>
+                                    <li><a target="_blank" href="http://ig.qq.com/?ADTAG=media.innerenter.gamecom.navigation"><span class="en">QQ</span>爱之花园</a></li>
+                                    <li><a target="_blank" href="http://nf.qq.com/?ADTAG=media.innerenter.gamecom.navigation">钓鱼忍者</a></li>
+                                    <li><a target="_blank" href="http://pala.qq.com/?ADTAG=media.innerenter.gamecom.navigation">胜犬帕拉</a></li>
+                                    <li><a target="_blank" href="http://ld.qq.com/?ADTAG=media.innerenter.gamecom.navigation">乐斗派</a></li> 
+                                </ul>
+                            </dd>
+                         </dl>
+                    </div>
+                </div>
+                <div class="con">
+                	<div class="hd">
+                    	<h1>搜索<em>·</em>服务</h1>
+                    </div>
+                    <div class="bd">
+                    	<dl>
+                        	<dt>[搜索]</dt>
+                            <dd style="width:390px;" class="line">
+                            	<ul>
+                                	<li><strong><a target="_blank" href="http://www.soso.com/">网页</a></strong></li>
+                                    <li><a target="_blank" href="http://image.soso.com/">图片</a></li>
+                                    <li><a target="_blank" href="http://video.soso.com/">视频</a></li>
+                                    <li><a target="_blank" href="http://music.soso.com/index.html">音乐</a></li>
+                                    <li><a target="_blank" href="http://news.soso.com/">新闻</a></li>
+                                    <li><a target="_blank" href="http://map.soso.com/?pid=n.map">地图</a></li>
+                                    <li><a target="_blank" href="http://top.soso.com/index.php?cid=soso.more">搜搜热榜</a></li>
+                                </ul>
+                                <ul>
+                                	<li><strong><a target="_blank" href="http://hao.qq.com/"><span class="en">QQ</span>导航</a></strong></li>
+                                    <li><a target="_blank" href="http://toolbar.soso.com/T4/index2.html">soso工具栏</a></li>
+                                    <li><a target="_blank" href="http://tbh.soso.com/">搜搜e点通</a></li>
+                                    <li><a target="_blank" href="http://shuqian.qq.com/"><span class="en">QQ</span>书签</a></li>
+                                </ul>
+                          </dd>
+                             <dd>
+                                <ul style="padding-left:6px;">
+                                	<li><strong><a target="_blank" href="http://www.soso.com/more.shtml">社区搜索</a></strong></li>
+                                    <li><a target="_blank" href="http://wenwen.soso.com/">问问</a></li>
+                                    <li><a target="_blank" href="http://baike.soso.com/">百科</a></li>
+                                    <li><a target="_blank" href="http://sobar.soso.com/">搜吧</a></li>
+                                    <li><a target="_blank" href="http://blog.soso.com/">博客搜索</a></li>
+                                    <li><a target="_blank" href="http://cache.soso.com/qq/index.html">聊天助手</a></li>
+                                </ul>
+                                <ul style="padding-left:6px;">
+                                	<li><strong><a target="_blank" href="http://labs.soso.com/">搜搜实验室</a></strong></li>
+                                    <li><a target="_blank" href="http://z.soso.com/">搜索直达</a></li>
+                                    <li><a target="_blank" href="http://dict.soso.com/">词典搜索</a></li>
+                                    <li><a target="_blank" href="http://e.soso.com/">搜搜月历</a></li>
+                                    <li><a target="_blank" href="http://3gqq.qq.com/">手机搜索</a></li>
+                                </ul>                                 
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>[服务]</dt>
+                            <dd>
+                            	<ul>
+                                	<li><a target="_blank" href="http://kf.qq.com/">客服中心</a></li>
+                                    <li><a target="_blank" href="http://open.qq.com/">开放平台</a></li>
+                                    <li><a target="_blank" href="http://exp.qq.com/">腾讯体验中心</a></li>
+                                    <li><a target="_blank" href="http://reteng.qq.com/">热腾网</a></li>
+                                    <li><a target="_blank" href="http://ta.qq.com/">腾讯分析</a></li>
+                              </ul>
+                            </dd>
+                      </dl>
+                    </div>
+                </div>
+         </div>
+	</div>
+</div>
+</body>
+</html>
